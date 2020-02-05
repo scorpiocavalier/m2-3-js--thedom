@@ -4,8 +4,9 @@
 
 By the end of this exercise, you will have a track, a stable of frogs that you can race, and everytime you load the page, random frogs from the stable will race a predetermined distance. _Gambling is not condoned or encouraged._
 
-**💡 For each step in this exercise, you will _always_ build on what you created in the previous step.**### Exercise 2.1 - Set up the track
+**💡 For each step in this exercise, you will _always_ build on what you created in the previous step.**
 
+### Exercise 2.1 - Set up the track
 
 1. Write a `for` loop that will generate a "lane" for each frog.
 2. Each lane should be an `li`.
