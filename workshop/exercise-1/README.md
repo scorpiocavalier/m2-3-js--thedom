@@ -28,7 +28,7 @@ Add classes with `JS`!
 _By now, you all know how bad it is to style with tagnames and `id`s._
 
 3. In `styles.css` replace the tags with classes (We can leave `#main` and `body`. They don't annoy me _too_ much. 😜)
-4. Now add the class names to the `exercise.html` file.
+4. Now add the class names to the `exercise.html` file via the JavaScript file.
 5. Once you've completed this exercise, **nothing** should have changed. You just have more efficient code... not for long!
 
 B-E-A-U-tiful!
@@ -40,7 +40,7 @@ Style a webpage entirely with `JS`!
 In a fit of inefficiency, you decide to **not** have a `.css` file, but still need the page to look good.
 
 1. Duplicate `📂 exercise-1-2` folder and name it `📂 exercise-1-3`
-2. In `exercise.html` remove all of the classes! Do it!
+2. In `exercise.html` remove all of the the link to the CSS file! Do it!
 3. Open the `styles.css` file. Look at all of that CSS...
 4. You need to add all of that CSS from the `scripts.js`.
 

@@ -32,8 +32,8 @@ mainDiv.appendChild(paragraphThree);
 mainDiv.appendChild(source);
 
 // Add <link> to CSS
-const head = document.getElementsByTagName('head');
+// You can target the <head> directly with document.head
 const stylesheet = document.createElement('link');
 stylesheet.rel = 'stylesheet';
 stylesheet.href = 'styles.css';
-head[0].appendChild(stylesheet);
+document.head.appendChild(stylesheet);
