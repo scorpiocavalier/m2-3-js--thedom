@@ -2,6 +2,8 @@
 
 ## Exercise 1 - Creating DOM Nodes
 
+<img src="./__lecture/assets/exercise-1.png" />
+
 In this exercise, we'll see how to create web pages using Javascript alone!
 
 In the exercise-1 folder, there are the following files.
@@ -28,6 +30,8 @@ You'll need to make extensive use of `document.createElement`!
 ---
 
 ## Exercise 2 - The Frog Race
+
+<img src="./__lecture/assets/exercise-2.gif" />
 
 By the end of this exercise, you will have a track, a stable of frogs that you can race, and everytime you load the page, random frogs from the stable will race a predetermined distance. _Gambling is not condoned or encouraged._
 
