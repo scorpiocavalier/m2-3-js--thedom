@@ -16,7 +16,7 @@ Create the content of a webpage entirely with Javascript.
 
 1. Recreate the content structure from `example.html` in enclosed `exercise.html`.
 2. To do this, **you are not allowed to modify any of the HTML files**, only `scripts.js` should be modified.
-3. Once you've completed this, compare `example.html` and your `exercise-1-1/exercise.html` file using "Live Preview", you will notice that they look nothing alike.
+3. Once you've completed this, compare `example.html` and your `exercise.html` file using "Live Preview", you will notice that they look nothing alike.
 4. Add code to the `scripts.js` that will add a `<link>` to the `styles.css` in the `<head>` of `exercise.html`.
 
 In other words: We'll start by recreating the HTML structure, without worrying about the styles. Once the HTML is correct, we'll add a `<link>` tag, which will add the relevant styles.
