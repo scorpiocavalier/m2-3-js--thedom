@@ -5,6 +5,7 @@ main {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /* border: 2px solid black; */
 }
 
 .track li {
@@ -15,6 +16,7 @@ main {
   border-bottom: 2px dashed #fff;
   position: relative;
   width: calc(100% - 50px);
+  /* border: 2px solid black; */
 }
 
 .track li:last-child {
@@ -24,9 +26,11 @@ main {
 .track li span:first-child {
   display: flex;
   align-items: center;
-  position: absolute;
-  left: -24px;
-  height: 80px;
+  /* position: absolute; */
+  /* left: -24px; */
+  height: 60px;
+  width: 60px;
+  margin: 10px 0;
 }
 
 .length {
@@ -58,4 +62,21 @@ main {
   position: relative;
   left: 0;
   transition: all ease-out 300ms;
+}
+
+/* frog container */
+.track li div {
+  position: relative;
+  left: 0%;
+  /* border: 2px solid black; */
+  height: 80px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.track li span:nth-child(2) {
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  color: white;
 }
