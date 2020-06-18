@@ -58,7 +58,7 @@ const racingFrog = () => {
 
         // Get new distance value
         let distance_left = 100 - frog.progress;
-        let distance_to_run = Math.floor(Math.random() * 5) + 1;
+        let distance_to_run = Math.floor(Math.random() * 10) + 1;
         
         // Update progress & check for winners
         if(distance_to_run > distance_left) {
@@ -81,8 +81,9 @@ const stop = () => clearInterval(start);
 // Main
 function main() {
     
-    prepareRace();    
-    start = setInterval(racingFrog, 1000);;
+    prepareRace();
+    let delay = Math.floor(Math.random() * 5) * 1000;
+    start = setInterval(racingFrog, delay);
 }
 
 main();
